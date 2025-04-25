@@ -11,10 +11,11 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-main {
-  max-width: 1440px;
-  margin: 0 auto;
-}
+ /* shared styles */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
 #navbar {
   margin-top: 16px;
@@ -383,6 +384,97 @@ main {
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   }
+
+  /* Testimonials Section */
+.testimonials {
+    padding: 96px 0px;
+  }
+  
+  /* Header */
+  .testimonial-header {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  
+  .testimonial-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #eef2ff;
+    color: #4f46e5;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 9999px;
+    margin-bottom: 24px;
+  }
+  
+  .testimonial-header h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 24px;
+  }
+  
+  .testimonial-description {
+    color: #475569;
+    font-size: 18px;
+    margin-bottom: 64px;
+  }
+  
+  /* Grid Layout for Cards */
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 32px;
+    align-items: start;
+  }
+  
+  /* Individual Testimonial Card */
+  .testimonial-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+  
+  /* Stars */
+  .stars {
+    color: #f59e0b;
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
+  
+  /* Testimonial Text */
+  .testimonial-card p {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+  
+  /* Profile Section */
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .profile div {
+    font-size: 14px;
+  }
+  
+  .profile strong {
+    font-weight: 700;
+  }
+  
+  .profile span {
+    color: #475569;
+  }
 /* Footer Relates Styles */
 .footer {
   margin-top: 96px;
@@ -655,6 +747,30 @@ main {
     max-width: 100%;
     height: auto;
   }
+
+   /* Testimonial Related Styles */
+   .testimonials {
+    padding: 64px 16px;
+  }
+
+  .testimonial-header h2 {
+    font-size: 28px;
+  }
+
+  .testimonial-description {
+    font-size: 16px;
+    margin-bottom: 48px;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card p {
+    font-size: 16px;
+  }
+
+
   /* Footer related Styles here */
   .footer {
     padding: 0px 0px;
