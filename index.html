@@ -1,307 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SlotHui</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-    <script src="https://kit.fontawesome.com/fcdb99718c.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/fcdb99718c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <main>
-        <!-- navbar -->
-        <nav id="navbar">
-          <div>
-            <img id="nav-logo" src="/assets/Logo.png" alt="SlothUI Logo" />
+      <!-- navbar -->
+      <nav id="navbar">
+        <div>
+          <img id="nav-logo" src="/assets/Logo.png" alt="SlothUI Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Achievements</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="signup-button">Sign Up</button>
+          <button class="login-button">Log In</button>
+          <i class="fas fa-bars mobile-icon"></i>
+        </div>
+      </nav>
+    </main>
+
+    <!-- Banner section -->
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-subtitle">Design System For GenZ</span>
+        <h1>Unleash Your Inner Design Sloth Today.</h1>
+        <p>
+          Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Cras
+          fermentum odio eu feugiat pretium nibh ipsum. Venenatis cras sed felis
+          eget velit aliquet.
+        </p>
+        <div class="hero-badges">
+          <a href="#"
+            ><img src="./assets/app.png" alt="Download on the App Store"
+          /></a>
+          <a href="#"
+            ><img src="./assets/google.png" alt="Get it on Google Play"
+          /></a>
+        </div>
+        <div class="screenshots">
+          <div class="desktop">
+            <img src="./assets/banner-1.png" alt="Desktop Dashboard" />
           </div>
-          <ul class="nav-links">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Achievements</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">FAQ</a></li>
+          <div class="mobile">
+            <img src="./assets/banner-2.png" alt="Mobile Dashboard" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Logo section -->
+    <section class="brand-logo-section">
+      <div class="container">
+        <div class="brand-logos-first">
+          <img
+            class="brand-img"
+            src="./assets/Company Logo.png"
+            alt="SlothUI Logo"
+          />
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (1).png"
+            alt="SlothUI Logo"
+          />
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (2).png"
+            alt="SlothUI Logo"
+          />
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (3).png"
+            alt="SlothUI Logo"
+          />
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (4).png"
+            alt="SlothUI Logo"
+          />
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (5).png"
+            alt="SlothUI Logo"
+          />
+        </div>
+        <div class="brand-logos-second">
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (6).png"
+            alt="SlothUI Logo"
+          />
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (7).png"
+            alt="SlothUI Logo"
+          />
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (8).png"
+            alt="SlothUI Logo"
+          />
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (9).png"
+            alt="SlothUI Logo"
+          />
+          <img
+            class="brand-img"
+            src="./assets/Company Logo (10).png"
+            alt="SlothUI Logo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- features section -->
+    <section class="features-section">
+      <div class="container">
+        <p class="highlighted-tag">Our Main Features</p>
+        <h2 class="features-title">Our Primary Features</h2>
+        <p class="features-subtitle">
+          Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt
+          eget nullam non nisi. Nisi porta lorem mollis aliquam ut porttitor
+          leo.
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="icon"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Lazy Efficient</h3>
+            <p>
+              A cras semper auctor neque. Proin libero nunc consequat interdum
+              varius sit. Libero volutpat sed cras ornare arcu dui vivamus arcu
+              felis.
+            </p>
+          </div>
+          <div class="feature-item">
+            <div class="icon"><i class="fa-solid fa-gear"></i></div>
+            <h3>Streamlined Process</h3>
+            <p>
+              Montes nascetur ridiculus mus mauris vitae ultricies leo integer
+              malesuada. Orci porta non pulvinar neque laoreet.
+            </p>
+          </div>
+          <div class="feature-item">
+            <div class="icon"><i class="fa-solid fa-brush"></i></div>
+            <h3>Minimum Effort</h3>
+            <p>Tincidunt eget nullam non nisi est sit amet facilisis magna.</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Absolutely Easy To Use</h3>
+            <p>
+              Rutrum quisque non tellus orci ac. Id interdum velit laoreet id
+              donec.
+            </p>
+          </div>
+          <div class="feature-item">
+            <div class="icon"><i class="fa-solid fa-bowl-food"></i></div>
+            <h3>Just Sleep & Chill</h3>
+            <p>
+              Bibendum est ultricies integer quis auctor elit. Facilisi morbi
+              tempus iaculis.
+            </p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">
+              <i class="fa-regular fa-face-smile-wink"></i>
+            </div>
+            <h3>Don’t Worry About Life</h3>
+            <p>Pharetra diam sit amet nisl suscipit adipiscing bibendum est.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lazy stats -->
+    <section class="lazy-stats">
+      <div class="container">
+        <div class="icon-wrapper">
+          <div class="icon-circle"><i class="fa-solid fa-house"></i></div>
+        </div>
+        <h2 class="lazy-title">Work lazily and achieve the result you want.</h2>
+        <p class="lazy-description">
+          Liquam id diam maecenas ultricies mi eget mauris pharetra et. Feugiat
+          pretium nibh ipsum consequat nisl vel pretium lectus. Fermentum
+          iaculis eu non diam.
+        </p>
+
+        <div class="stats">
+          <div class="stat">
+            <h3>420%</h3>
+            <p>Data Efficiency</p>
+          </div>
+          <div class="divider"></div>
+          <div class="stat">
+            <h3>708+</h3>
+            <p>Conversion Rate</p>
+          </div>
+          <div class="divider"></div>
+          <div class="stat">
+            <h3>1.82M</h3>
+            <p>AI LLM Scale</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Procastinator Section -->
+    <section class="procastinator">
+        <div class="container">
+          <span class="tag">Who is it for?</span>
+          <h2 class="title">What the procrastinators say</h2>
+          <p class="description">
+            Mi ipsum faucibus vitae aliquet nec. At tempor commodo ullamcorper a
+            <br />
+            lacus. Bibendum at varius vel pharetra vel.
+          </p>
+          <div class="content-wrapper">
+            <div class="features">
+              <div class="feature">
+                <div class="line active"></div>
+                <div>
+                  <h3>Convallis tellus id interdum velit</h3>
+                  <p>
+                    Est pellentesque elit ullamcorper dignissim cras. In
+                    pellentesque massa placerat duis ultricies.
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature">
+                <div class="line"></div>
+                <div>
+                  <h3>Id interdum velit laoreet id donec ultrices</h3>
+                  <p>
+                    Donec massa sapien faucibus et molestie ac feugiat sed.
+                    Congue mauris rhoncus aenean vel elit scelerisque.
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature">
+                <div class="line"></div>
+                <div>
+                  <h3>Sapien et ligula ullamcorper malesuada</h3>
+                  <p>
+                    Donec massa sapien faucibus et molestie ac feugiat sed.
+                    Congue mauris rhoncus aenean vel elit scelerisque.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="image-section">
+              <img src="./assets/procastinator.png" alt="Dashboard Mockup" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h4 class="footer-title">Site Map</h4>
+          <ul>
+            <li>Homepage</li>
+            <li>Product</li>
+            <li>Services</li>
+            <li>Technology</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
           </ul>
-          <div class="nav-actions">
-            <button class="signup-button">Sign Up</button>
-            <button class="login-button">Log In</button>
-            <i class="fas fa-bars mobile-icon"></i>
-          </div>
-        </nav>
-      </main>
-
-
-       <!-- Banner section -->
-       <section class="hero">
-        <div class="hero-content">
-          <span class="hero-subtitle">Design System For GenZ</span>
-          <h1>Unleash Your Inner Design Sloth Today.</h1>
-          <p>
-            Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet.
-            Cras fermentum odio eu feugiat pretium nibh ipsum. Venenatis cras
-            sed felis eget velit aliquet.
-          </p>
-          <div class="hero-badges">
-            <a href="#"
-              ><img src="./assets/app.png" alt="Download on the App Store"
-            /></a>
-            <a href="#"
-              ><img src="./assets/google.png" alt="Get it on Google Play"
-            /></a>
-          </div>
-          <div class="screenshots">
-            <div class="desktop">
-              <img src="./assets/banner-1.png" alt="Desktop Dashboard" />
-            </div>
-            <div class="mobile">
-              <img src="./assets/banner-2.png" alt="Mobile Dashboard" />
-            </div>
-          </div>
         </div>
-      </section>
-
-       <!-- Brand Logo section -->
-       <section class="brand-logo-section">
-        <div class="container">
-          <div class="brand-logos-first">
-            <img
-              class="brand-img"
-              src="./assets/Company Logo.png"
-              alt="SlothUI Logo"
-            />
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (1).png"
-              alt="SlothUI Logo"
-            />
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (2).png"
-              alt="SlothUI Logo"
-            />
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (3).png"
-              alt="SlothUI Logo"
-            />
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (4).png"
-              alt="SlothUI Logo"
-            />
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (5).png"
-              alt="SlothUI Logo"
-            />
-          </div>
-          <div class="brand-logos-second">
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (6).png"
-              alt="SlothUI Logo"
-            />
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (7).png"
-              alt="SlothUI Logo"
-            />
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (8).png"
-              alt="SlothUI Logo"
-            />
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (9).png"
-              alt="SlothUI Logo"
-            />
-            <img
-              class="brand-img"
-              src="./assets/Company Logo (10).png"
-              alt="SlothUI Logo"
-            />
-          </div>
+        <div>
+          <h4 class="footer-title">Services</h4>
+          <ul>
+            <li>Service Lineup 1</li>
+            <li>Service Lineup 2</li>
+            <li>Service Lineup 3</li>
+            <li>Service Lineup 4</li>
+            <li>Service Lineup 5</li>
+            <li>Service Lineup 6</li>
+          </ul>
         </div>
-      </section>
-
-       <!-- features section -->
-       <section class="features-section">
-        <div class="container">
-          <p class="highlighted-tag">Our Main Features</p>
-          <h2 class="features-title">Our Primary Features</h2>
-          <p class="features-subtitle">
-            Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt
-            eget nullam non nisi. Nisi porta lorem mollis aliquam ut porttitor
-            leo.
-          </p>
-
-          <div class="features-grid">
-            <div class="feature-item">
-              <div class="icon"><i class="fa-solid fa-bolt"></i></div>
-              <h3>Lazy Efficient</h3>
-              <p>
-                A cras semper auctor neque. Proin libero nunc consequat interdum
-                varius sit. Libero volutpat sed cras ornare arcu dui vivamus
-                arcu felis.
-              </p>
-            </div>
-            <div class="feature-item">
-              <div class="icon"><i class="fa-solid fa-gear"></i></div>
-              <h3>Streamlined Process</h3>
-              <p>
-                Montes nascetur ridiculus mus mauris vitae ultricies leo integer
-                malesuada. Orci porta non pulvinar neque laoreet.
-              </p>
-            </div>
-            <div class="feature-item">
-              <div class="icon"><i class="fa-solid fa-brush"></i></div>
-              <h3>Minimum Effort</h3>
-              <p>
-                Tincidunt eget nullam non nisi est sit amet facilisis magna.
-              </p>
-            </div>
-            <div class="feature-item">
-              <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
-              <h3>Absolutely Easy To Use</h3>
-              <p>
-                Rutrum quisque non tellus orci ac. Id interdum velit laoreet id
-                donec.
-              </p>
-            </div>
-            <div class="feature-item">
-              <div class="icon"><i class="fa-solid fa-bowl-food"></i></div>
-              <h3>Just Sleep & Chill</h3>
-              <p>
-                Bibendum est ultricies integer quis auctor elit. Facilisi morbi
-                tempus iaculis.
-              </p>
-            </div>
-            <div class="feature-item">
-              <div class="icon">
-                <i class="fa-regular fa-face-smile-wink"></i>
-              </div>
-              <h3>Don’t Worry About Life</h3>
-              <p>
-                Pharetra diam sit amet nisl suscipit adipiscing bibendum est.
-              </p>
-            </div>
-          </div>
+        <div>
+          <h4 class="footer-title">Product</h4>
+          <ul>
+            <li>Product Lineup 1</li>
+            <li>Product Lineup 2</li>
+            <li>Product Lineup 3</li>
+            <li>Product Lineup 4</li>
+            <li>Product Lineup 5</li>
+            <li>Product Lineup 6</li>
+          </ul>
         </div>
-      </section>
-
-
-        <!-- Lazy stats -->
-        <section class="lazy-stats">
-            <div class="container">
-              <div class="icon-wrapper">
-                <div class="icon-circle"><i class="fa-solid fa-house"></i></div>
-              </div>
-              <h2 class="lazy-title">
-                Work lazily and achieve the result you want.
-              </h2>
-              <p class="lazy-description">
-                Liquam id diam maecenas ultricies mi eget mauris pharetra et.
-                Feugiat pretium nibh ipsum consequat nisl vel pretium lectus.
-                Fermentum iaculis eu non diam.
-              </p>
-    
-              <div class="stats">
-                <div class="stat">
-                  <h3>420%</h3>
-                  <p>Data Efficiency</p>
-                </div>
-                <div class="divider"></div>
-                <div class="stat">
-                  <h3>708+</h3>
-                  <p>Conversion Rate</p>
-                </div>
-                <div class="divider"></div>
-                <div class="stat">
-                  <h3>1.82M</h3>
-                  <p>AI LLM Scale</p>
-                </div>
-              </div>
-            </div>
-          </section>
-      <!-- footer -->
-      <footer class="footer">
-        <div class="footer-grid">
-          <div>
-            <h4 class="footer-title">Site Map</h4>
-            <ul>
-              <li>Homepage</li>
-              <li>Product</li>
-              <li>Services</li>
-              <li>Technology</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="footer-title">Services</h4>
-            <ul>
-              <li>Service Lineup 1</li>
-              <li>Service Lineup 2</li>
-              <li>Service Lineup 3</li>
-              <li>Service Lineup 4</li>
-              <li>Service Lineup 5</li>
-              <li>Service Lineup 6</li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="footer-title">Product</h4>
-            <ul>
-              <li>Product Lineup 1</li>
-              <li>Product Lineup 2</li>
-              <li>Product Lineup 3</li>
-              <li>Product Lineup 4</li>
-              <li>Product Lineup 5</li>
-              <li>Product Lineup 6</li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="footer-title">Help & Support</h4>
-            <ul>
-              <li>Live Chat</li>
-              <li>Email Support</li>
-              <li>Product Refund</li>
-              <li>Submit Feedback</li>
-              <li>Help Ticket</li>
-              <li>Call Center</li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="footer-title">Legal</h4>
-            <ul>
-              <li>Privacy Policy</li>
-              <li>HIPAA Notice</li>
-              <li>Data Policy</li>
-              <li>AI Privacy</li>
-              <li>Terms & Conditions</li>
-              <li>Lawyer’s Corner</li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="footer-title">Pricing</h4>
-            <ul>
-              <li>Pricing Tier 1</li>
-              <li>Pricing Tier 2</li>
-              <li>Pricing Tier 3</li>
-              <li>Pricing Tier 4</li>
-              <li>Pricing Tier 5</li>
-              <li>Pricing Tier 6</li>
-            </ul>
-          </div>
+        <div>
+          <h4 class="footer-title">Help & Support</h4>
+          <ul>
+            <li>Live Chat</li>
+            <li>Email Support</li>
+            <li>Product Refund</li>
+            <li>Submit Feedback</li>
+            <li>Help Ticket</li>
+            <li>Call Center</li>
+          </ul>
         </div>
-        <div class="footer-bottom">
-          <div>
-            <img id="nav-logo" src="/assets/Logo.png" alt="SlothUI Logo" />
-          </div>
-          <button class="footer-scroll-top">
-            <i class="fas fa-chevron-up"></i>
-          </button>
-          <p class="footer-copy">Copyright 2028 slothUI, All Rights Reserved.</p>
+        <div>
+          <h4 class="footer-title">Legal</h4>
+          <ul>
+            <li>Privacy Policy</li>
+            <li>HIPAA Notice</li>
+            <li>Data Policy</li>
+            <li>AI Privacy</li>
+            <li>Terms & Conditions</li>
+            <li>Lawyer’s Corner</li>
+          </ul>
         </div>
-      </footer>
-</body>
+        <div>
+          <h4 class="footer-title">Pricing</h4>
+          <ul>
+            <li>Pricing Tier 1</li>
+            <li>Pricing Tier 2</li>
+            <li>Pricing Tier 3</li>
+            <li>Pricing Tier 4</li>
+            <li>Pricing Tier 5</li>
+            <li>Pricing Tier 6</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          <img id="nav-logo" src="/assets/Logo.png" alt="SlothUI Logo" />
+        </div>
+        <button class="footer-scroll-top">
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <p class="footer-copy">Copyright 2028 slothUI, All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
