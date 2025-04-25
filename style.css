@@ -308,7 +308,7 @@ body {
 
 /* Procastinators Section */
 .procastinator {
-    margin: 96px 112px;
+    margin: 96px 0px;
   }
   .content-wrapper {
     display: flex;
@@ -1026,8 +1026,8 @@ body {
     padding: 3px 10px;
   }
 
-  /* Download Section Related Styles */
-  .download-container {
+ /* Download Section Related Styles */
+ .download-container {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -1062,6 +1062,7 @@ body {
   .download-images img {
     max-width: 50%;
   }
+
 
   /* Footer related Styles here */
   .footer {

@@ -13,24 +13,28 @@
   </head>
   <body>
     <main>
-      <!-- navbar -->
-      <nav id="navbar">
+     <!-- navbar section-->
+     <nav id="navbar" class="container">
         <div>
-          <img id="nav-logo" src="/assets/Logo.png" alt="SlothUI Logo" />
+          <img id="nav-logo" src="./assets/Logo.png" alt="SlothUI Logo" />
         </div>
+
         <ul class="nav-links">
           <li><a href="#">Features</a></li>
           <li><a href="#">Achievements</a></li>
           <li><a href="#">Testimonials</a></li>
           <li><a href="#">FAQ</a></li>
         </ul>
+
         <div class="nav-actions">
           <button class="signup-button">Sign Up</button>
           <button class="login-button">Log In</button>
-          <i class="fas fa-bars mobile-icon"></i>
+          <div class="mobile-icon">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
       </nav>
-    </main>
+   
 
     <!-- Banner section -->
     <section class="hero">
@@ -658,7 +662,7 @@
           </div>
         </div>
       </section>
-
+    </main>
 
     <!-- footer section -->
     <footer class="footer">
@@ -745,5 +749,24 @@
         </div>
       </div>
     </footer>
+
+
+    <script>
+        const faqItems = document.querySelectorAll(".faq-item");
+  
+        faqItems.forEach((item) => {
+          item.addEventListener("click", () => {
+            // Toggle current item
+            item.classList.toggle("expanded");
+  
+            // Handle arrow rotation
+            const arrow = item.querySelector(".arrow");
+            document.querySelectorAll(".arrow").forEach((a) => {
+              if (a !== arrow) a.classList.remove("active");
+            });
+            arrow.classList.toggle("active");
+          });
+        });
+      </script>
   </body>
 </html>
