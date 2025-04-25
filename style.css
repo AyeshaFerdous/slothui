@@ -147,6 +147,33 @@ main {
     display: block;
   }
   
+
+  /* Brand section related styles */
+.brand-logo-section {
+    margin-top: 96px;
+  }
+  
+  .brand-logos-first {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+    margin: 16px;
+  }
+  
+  .brand-logos-second {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    padding: 0 100px;
+    margin: 16px;
+  }
+  
+  .brand-img {
+    width: 144px;
+    height: 96px;
+  }
+
+
 /* Footer Relates Styles */
 .footer {
   margin-top: 96px;
@@ -327,6 +354,20 @@ main {
     margin-top: -4rem;
     margin-right: 5rem;
     width: 20%;
+  }
+
+   /* Brand logos related styles */
+
+   .brand-img {
+    width: 124px;
+    height: 86px;
+  }
+   .brand-logos-first {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .brand-logos-second {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 0px;
   }
   /* Footer related Styles here */
   .footer {
